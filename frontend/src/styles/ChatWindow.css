@@ -1,0 +1,208 @@
+.chat-window {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #f8fafc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.message.user {
+  align-items: flex-end;
+}
+
+.message.ai {
+  align-items: flex-start;
+}
+
+.sender {
+  font-size: 13px;
+  font-weight: bold;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.bubble {
+  max-width: 75%;
+  padding: 14px 18px;
+  border-radius: 16px;
+  line-height: 1.7;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  word-wrap: break-word;
+}
+
+.user .bubble {
+  background: #2563eb;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.ai .bubble {
+  background: white;
+  color: #1e293b;
+  border-bottom-left-radius: 4px;
+}
+
+/* Markdown Styles */
+
+.bubble h1,
+.bubble h2,
+.bubble h3,
+.bubble h4 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.bubble p {
+  margin: 8px 0;
+}
+
+.bubble ul,
+.bubble ol {
+  margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.bubble li {
+  margin-bottom: 6px;
+}
+
+.bubble strong {
+  font-weight: 700;
+}
+
+.bubble em {
+  font-style: italic;
+}
+
+.bubble code {
+  background: #e2e8f0;
+  color: #dc2626;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-family: Consolas, monospace;
+}
+
+.bubble pre {
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 14px;
+  border-radius: 10px;
+  overflow-x: auto;
+  margin: 12px 0;
+}
+
+.bubble pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.bubble blockquote {
+  border-left: 4px solid #2563eb;
+  padding-left: 12px;
+  margin: 12px 0;
+  color: #475569;
+}
+
+.bubble table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+
+.bubble th,
+.bubble td {
+  border: 1px solid #d1d5db;
+  padding: 8px;
+  text-align: left;
+}
+
+.bubble th {
+  background: #e2e8f0;
+}
+
+.copy-btn{
+
+    margin-top:8px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:8px 14px;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    transition:0.3s;
+
+}
+
+.copy-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.copy-btn:active{
+
+    transform:scale(0.96);
+
+}
+
+.action-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-top:10px;
+
+}
+
+.download-btn{
+
+    background:#059669;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:8px 14px;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    transition:.3s;
+
+}
+
+.download-btn:hover{
+
+    background:#047857;
+
+}
+
+.download-btn:active{
+
+    transform:scale(.96);
+
+}

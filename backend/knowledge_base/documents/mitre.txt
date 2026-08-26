@@ -1,0 +1,12 @@
+MITRE ATT&CK
+
+T1110 - Brute Force
+
+Description:
+Adversaries attempt to guess passwords.
+
+Detection:
+Multiple failed login attempts.
+
+Mitigation:
+Enable MFA.

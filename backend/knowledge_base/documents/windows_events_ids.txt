@@ -1,0 +1,13 @@
+Windows Event IDs
+
+4624
+Successful Login
+
+4625
+Failed Login
+
+4688
+Process Creation
+
+4698
+Scheduled Task Created

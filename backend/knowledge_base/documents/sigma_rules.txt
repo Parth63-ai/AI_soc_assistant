@@ -1,0 +1,10 @@
+Sigma Rule
+
+Title:
+PowerShell Suspicious Download
+
+Detection:
+PowerShell downloading files from the internet.
+
+Severity:
+High

@@ -1,0 +1,89 @@
+.upload-card{
+
+    margin-top:25px;
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+.upload-card h3{
+
+    margin-top:0;
+
+    color:#1e293b;
+
+}
+
+.choose-btn{
+
+    background:#475569;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    margin-right:10px;
+
+    transition:.3s;
+
+}
+
+.choose-btn:hover{
+
+    background:#334155;
+
+}
+
+.analyze-btn{
+
+    background:#059669;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.analyze-btn:hover{
+
+    background:#047857;
+
+}
+
+.analyze-btn:disabled{
+
+    background:gray;
+
+    cursor:not-allowed;
+
+}
+
+.selected-file{
+
+    margin-top:18px;
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}
