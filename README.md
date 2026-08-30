@@ -1,4 +1,5 @@
 # 🛡️ AI SOC Assistant
+Deploy Link: https://ai-soc-assistant-phi.vercel.app/
 
 An AI-powered **SOC (Security Operations Center) Assistant** that analyzes security logs and generates structured investigation reports using **RAG, semantic search, and Google Gemini**.
 
